@@ -1,0 +1,223 @@
+body{
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+
+}
+/* navigation bar */
+.navbar{
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: palegoldenrod;
+    opacity:100%;
+    z-index:1;
+}
+
+.navbar-item{
+    background-color: palegoldenrod;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 10;
+    border-color: grey;
+    z-index:2;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    
+    color: black;
+    z-index: 2;
+}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+
+ .dropbtn{
+    background-color: palegoldenrod;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 10;
+    border-color: grey;
+    z-index:2;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+.dropdown-content {
+    display: none;
+    background-color: palegoldenrod;
+    z-index:999;
+    padding:10px;
+
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px;
+    z-index:999;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    
+}
+
+#read-story{
+    margin-left:10%;
+    background-color: palegoldenrod;
+}
+
+#nyc-text{
+    margin-left:10%;
+    display:none;
+}
+
+
+/* homepage photo */
+#ny3 {
+    margin-top: 50px; 
+    position:relative; 
+    width:100%; 
+    opacity: 70%; 
+    z-index: -1;
+}
+
+#name {
+    color:black;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+    bottom: 300px;
+    font-size: 4vw;
+    margin-top: 60px;
+    margin-left: 45%;
+    text-shadow: 2px 2px 2px;
+    background-color:palegoldenrod;
+    opacity: 90%;
+    z-index:-1;
+    
+}
+
+#education {
+    color:black;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+    bottom: 300px;
+    font-size: 1vw;
+    margin-left: 45%;
+    z-index:-1;
+    
+}
+/* paragraph about me */
+.para {
+    align-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    bottom:55px;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2.0vw;
+    z-index: -1;
+}
+
+.title {
+    align-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2.5vw;
+    z-index: -1;
+}
+
+#ttt {
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    
+    
+}
+.des-text{
+    
+    font-size: 1.9vw;
+    margin: 0;
+    margin-left: -25%;
+    text-align: left;
+    position: relative;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    z-index: -1;
+}
+
+.des-text-1{
+    font-size: 1.5vw;
+    margin:0;
+    margin-left: -25%;
+    text-align: left;
+    position: relative;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    z-index: -1;
+}
+
+.des-text-2{
+    font-size: 1.5vw;
+    margin-left: -25%;
+    margin-right: 10%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    max-width:100%;
+    z-index: -1;
+}
+
+.flex-container{
+    display:flex;
+
+}
+
+.flex-container-2{
+    display:flex;
+    margin-left:10%;
+    margin-right:10%;
+    align-items: center;
+    
+}
+
+.flex-item-2{
+    width:50%;
+    align-content: center;
+}
+  .title-2 {
+    margin-left:10%; 
+    margin-right:10%; 
+    background-color:palegoldenrod;
+    font-size: 2.3vw;
+  }
+
+/* Title of pages */
+
+.page-title {
+    padding-top: 55px ;
+    align-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 2.5vw;
+    z-index: -1;
+}
+  
+.footer{
+    width:100%;
+    height:15px;
+    background-color: palegoldenrod;
+}
