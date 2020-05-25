@@ -8,6 +8,7 @@
         <meta charset="UTF-8"> <!--character set for document-->
         <meta name="description" content="this is an awesome"> <!-- description when looked up-->
         <meta name="viewport" content="width=device-width, initial-scale">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Francesca Webpage</title> 
     </head>
     
@@ -15,9 +16,19 @@
         <main>
             <div class="navbar container">
                 <div class="navbar-item"><a href="index.html">Home</a></div>
-                <div class="navbar-item"><a href="about.html">About</a></div>
+                <div class="navbar-item"><a href="about.html">Experience</a></div>
                 <div class="navbar-item"><a href="contact.html">Contact</a></div>
-                <div class="navbar-item"><a href="travel.html">Travel</a></div>
+                <div class="dropdown">
+                    <div onclick="dropDown()" id="dropbtn">Interests
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div id="dropdown-content">
+                        <a href="travel.html">Travel Stories</a>
+                        <a href="index.html">Home</a>
+                    </div>
+                    
+                </div>
+                <script src="code.js"></script>
             </div>
 
           

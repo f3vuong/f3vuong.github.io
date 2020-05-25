@@ -20,15 +20,11 @@ body{
     border-radius: 10px;
     padding: 8px;
     border: 10;
-    border-color: grey;
-    z-index:2;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
-    
-    color: black;
-    z-index: 2;
+
+a {
+    color: #000;
+
 }
 
 a:visited, a:hover, a:focus {
@@ -37,40 +33,46 @@ a:visited, a:hover, a:focus {
 }
 
 
- .dropbtn{
+ #dropbtn{
     background-color: palegoldenrod;
+    text-decoration: underline;
     overflow: hidden;
     margin: 10px;
     border-radius: 10px;
     padding: 8px;
     border: 10;
     border-color: grey;
-    z-index:2;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    cursor: pointer;
 
 }
-.dropdown-content {
+#dropbtn:hover{
+    text-decoration: none;
+}
+#dropdown-content {
     display: none;
     background-color: palegoldenrod;
-    z-index:999;
     padding:10px;
 
 }
 
-.dropdown-content a {
+#dropdown-content a {
     display: block;
     padding: 8px;
-    z-index:999;
 }
-.dropdown:hover .dropdown-content {
-    display: block;
+ #dropdown-content {
+    display: none;
     position: absolute;
     
 }
 
-#read-story{
+.read-more-btn{
     margin-left:10%;
     background-color: palegoldenrod;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 8px;
+    border: 10;
+    border-color: grey;
 }
 
 #nyc-text{
@@ -78,6 +80,26 @@ a:visited, a:hover, a:focus {
     display:none;
 }
 
+#van-text{
+    margin-left:10%;
+    display:none;
+}
+
+#ice-text{
+    margin-left:10%;
+    display:none;
+}
+/* Title of pages */
+
+.page-title {
+    padding-top: 55px ;
+    align-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 2.5vw;
+    z-index: -1;
+}
 
 /* homepage photo */
 #ny3 {
@@ -120,6 +142,7 @@ a:visited, a:hover, a:focus {
     z-index: -1;
 }
 
+/* Currently working on */
 .title {
     align-content: center;
     text-align: center;
@@ -131,6 +154,11 @@ a:visited, a:hover, a:focus {
     font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 2.5vw;
     z-index: -1;
+}
+/* flex box for items for things im working on */
+.flex-container{
+    display:flex;
+
 }
 
 #ttt {
@@ -173,11 +201,7 @@ a:visited, a:hover, a:focus {
     z-index: -1;
 }
 
-.flex-container{
-    display:flex;
-
-}
-
+/* travel */
 .flex-container-2{
     display:flex;
     margin-left:10%;
@@ -190,27 +214,21 @@ a:visited, a:hover, a:focus {
     width:50%;
     align-content: center;
 }
-  .title-2 {
+.title-2 {
     margin-left:10%; 
     margin-right:10%; 
     background-color:palegoldenrod;
     font-size: 2.3vw;
-  }
+}
 
-/* Title of pages */
-
-.page-title {
-    padding-top: 55px ;
-    align-content: center;
-    align-content: center;
-    text-align: center;
-    position: relative;
-    font-size: 2.5vw;
-    z-index: -1;
+.read-more-btn{
+    width: 10%;
+    box-shadow: none;
 }
   
 .footer{
     width:100%;
     height:15px;
     background-color: palegoldenrod;
+    margin-top:5%;
 }
