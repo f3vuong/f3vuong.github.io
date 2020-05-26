@@ -9,13 +9,13 @@ body{
     position: fixed;
     top: 0;
     width:100%;
-    background-color: palegoldenrod;
+    background-color: rgb(182, 209, 218);
     opacity:100%;
     z-index:1;
 }
 
 .navbar-item{
-    background-color: palegoldenrod;
+    background-color: rgb(182, 209, 218);
     margin: 10px;
     border-radius: 10px;
     padding: 8px;
@@ -34,14 +34,14 @@ a:visited, a:hover, a:focus {
 
 
  #dropbtn{
-    background-color: palegoldenrod;
+    background-color: rgb(182, 209, 218);
     text-decoration: underline;
     overflow: hidden;
     margin: 10px;
     border-radius: 10px;
     padding: 8px;
     border: 10;
-    border-color: grey;
+    border-color: rgb(182, 209, 218);
     cursor: pointer;
 
 }
@@ -50,7 +50,7 @@ a:visited, a:hover, a:focus {
 }
 #dropdown-content {
     display: none;
-    background-color: palegoldenrod;
+    background-color: rgb(182, 209, 218);
     padding:10px;
 
 }
@@ -65,30 +65,8 @@ a:visited, a:hover, a:focus {
     
 }
 
-.read-more-btn{
-    margin-left:10%;
-    background-color: palegoldenrod;
-    overflow: hidden;
-    border-radius: 10px;
-    padding: 8px;
-    border: 10;
-    border-color: grey;
-}
 
-#nyc-text{
-    margin-left:10%;
-    display:none;
-}
 
-#van-text{
-    margin-left:10%;
-    display:none;
-}
-
-#ice-text{
-    margin-left:10%;
-    display:none;
-}
 /* Title of pages */
 
 .page-title {
@@ -97,7 +75,8 @@ a:visited, a:hover, a:focus {
     align-content: center;
     text-align: center;
     position: relative;
-    font-size: 2.5vw;
+    font-size: 3vw;
+    font-weight: bold;
     z-index: -1;
 }
 
@@ -117,7 +96,7 @@ a:visited, a:hover, a:focus {
     margin-top: 60px;
     margin-left: 45%;
     text-shadow: 2px 2px 2px;
-    background-color:palegoldenrod;
+    background-color:rgb(182, 209, 218);
     opacity: 90%;
     z-index:-1;
     
@@ -137,7 +116,6 @@ a:visited, a:hover, a:focus {
     text-align: center;
     padding: 8% 15% 8% 15%;
     position: relative;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 2.0vw;
     z-index: -1;
 }
@@ -151,7 +129,6 @@ a:visited, a:hover, a:focus {
     padding-top: 5%;
     padding-bottom: 5%;
     position: relative;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 2.5vw;
     z-index: -1;
 }
@@ -171,6 +148,14 @@ a:visited, a:hover, a:focus {
     
     
 }
+
+#experience{
+    margin-left: 10%;
+    margin-right: 0%;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
 .des-text{
     
     font-size: 1.9vw;
@@ -178,7 +163,6 @@ a:visited, a:hover, a:focus {
     margin-left: -25%;
     text-align: left;
     position: relative;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     z-index: -1;
 }
 
@@ -188,7 +172,6 @@ a:visited, a:hover, a:focus {
     margin-left: -25%;
     text-align: left;
     position: relative;
-    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     z-index: -1;
 }
 
@@ -196,9 +179,23 @@ a:visited, a:hover, a:focus {
     font-size: 1.5vw;
     margin-left: -25%;
     margin-right: 10%;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     max-width:100%;
     z-index: -1;
+}
+
+#btn-count, #btn-reset{
+    height: 10%;
+    width: 10%;
+    box-shadow: none;
+    background-color:rgb(182, 209, 218);
+    font-size: 1.5vw;
+    font-weight:bold ;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 8px;
+    border-color: grey;
+    
+
 }
 
 /* travel */
@@ -217,18 +214,46 @@ a:visited, a:hover, a:focus {
 .title-2 {
     margin-left:10%; 
     margin-right:10%; 
-    background-color:palegoldenrod;
+    border-bottom: 5px solid rgb(182, 209, 218);
+    /*display:inline-block;*/
     font-size: 2.3vw;
 }
 
 .read-more-btn{
-    width: 10%;
+    height: 10%;
     box-shadow: none;
+    background-color:rgb(182, 209, 218);
+    font-size: 1.5vw;
+    margin-left:10%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 8px;
+    border-color: grey;
+}
+
+.read-more-text{
+    font-size: 2.0vw;
+    margin-right: 10%;
+    text-align: justify;
+}
+#nyc-text{
+    margin-left:10%;
+    display:none;
+}
+
+#van-text{
+    margin-left:10%;
+    display:none;
+}
+
+#ice-text{
+    margin-left:10%;
+    display:none;
 }
   
 .footer{
     width:100%;
     height:15px;
-    background-color: palegoldenrod;
+    background-color: rgb(182, 209, 218);
     margin-top:5%;
 }
