@@ -22,16 +22,23 @@ body{
     border: 10;
 }
 
+.navbar-text{
+    background-color: rgb(182, 209, 218);
+    border-radius: 10px;
+    padding: 8px;
+    border: 10;
+    border-color: rgb(182, 209, 218);
+}
+
 a {
     color: #000;
 
 }
 
-a:visited, a:hover, a:focus {
+a:visited, a:focus {
     text-decoration: none;
     color: #000;
 }
-
 
  #dropbtn{
     background-color: rgb(182, 209, 218);
@@ -45,14 +52,19 @@ a:visited, a:hover, a:focus {
     cursor: pointer;
 
 }
-#dropbtn:hover{
+#dropbtn:hover, a:hover{
     text-decoration: none;
+    background-color: lightgray;
 }
 #dropdown-content {
     display: none;
     background-color: rgb(182, 209, 218);
     padding:10px;
 
+}
+
+.dropdown-content-text{
+    border-radius: 10px;
 }
 
 #dropdown-content a {
@@ -92,10 +104,10 @@ a:visited, a:hover, a:focus {
 #name {
     color:black;
     position: relative;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 60px;
     margin-left: 45%;
-    text-shadow: 2px 2px 2px;
+    font-weight:bold;
     background-color:rgb(182, 209, 218);
     opacity: 90%;
     z-index:-1;
@@ -104,6 +116,8 @@ a:visited, a:hover, a:focus {
 
 #education {
     color:black;
+    background-color:white;
+    opacity:70%;
     position: relative;
     font-size: 1vw;
     margin-left: 45%;
@@ -230,6 +244,7 @@ a:visited, a:hover, a:focus {
     border-radius: 10px;
     padding: 8px;
     border-color: grey;
+    cursor:pointer;
 }
 
 .read-more-text{
