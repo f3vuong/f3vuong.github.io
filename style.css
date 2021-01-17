@@ -266,6 +266,23 @@ a:visited, a:focus {
     margin-left:10%;
     display:none;
 }
+
+.container-3 {
+    display:flex; 
+    overflow:hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-item-3 {
+    padding: 2.5%;
+    width: 20%;
+}
+
+.flex-item-3:hover {
+    opacity:30%;
+}
+
   
 .footer{
     width:100%;
