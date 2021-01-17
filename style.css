@@ -277,10 +277,12 @@ a:visited, a:focus {
 .flex-item-3 {
     padding: 2.5%;
     width: 20%;
+    height:auto;
 }
 
 .flex-item-3:hover {
     opacity:30%;
+    height:50%;
 }
 
   
